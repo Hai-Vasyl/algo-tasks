@@ -1,4 +1,4 @@
-import checkNaturNumber from "./helpers/checkNaturNumber.js"
+const checkNaturNumber = require("./helpers/checkNaturNumber.js")
 
 // Дано натуральне число n. Обчислити добуток перших n співмножників. 1/2 + 3/4 + ...
 
