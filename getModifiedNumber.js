@@ -1,4 +1,4 @@
-import checkNaturNumber from "./helpers/checkNaturNumber.js"
+const checkNaturNumber = require("./helpers/checkNaturNumber.js")
 
 // Дано натуральне число n. Обчислити 1*2 + 2*3*4 +...+ n*(n+1)*...2n
 

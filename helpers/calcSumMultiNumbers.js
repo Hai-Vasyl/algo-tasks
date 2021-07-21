@@ -1,4 +1,4 @@
-export default function calcSumMultiNumbers(num) {
+function calcSumMultiNumbers(num) {
   let sumMultiNumbers = 0
 
   for (let i = 1; i < num; i++) {
@@ -9,3 +9,5 @@ export default function calcSumMultiNumbers(num) {
 
   return sumMultiNumbers
 }
+
+module.exports = calcSumMultiNumbers

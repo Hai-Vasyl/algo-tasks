@@ -1,6 +1,6 @@
-import checkNaturNumber from "./helpers/checkNaturNumber.js"
-import calcSumMultiNumbers from "./helpers/calcSumMultiNumbers.js"
-import isGroupInGroups from "./helpers/isGroupInGroups.js"
+const checkNaturNumber = require("./helpers/checkNaturNumber.js")
+const calcSumMultiNumbers = require("./helpers/calcSumMultiNumbers.js")
+const isGroupInGroups = require("./helpers/isGroupInGroups.js")
 
 function getGroupsFriendNumbersByRange(from, to) {
   const _from = checkNaturNumber(from)

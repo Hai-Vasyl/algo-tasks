@@ -1,4 +1,4 @@
-export default function isGroupInGroups(groups, group) {
+function isGroupInGroups(groups, group) {
   let isExists = false
 
   outerLoop: for (let i = 0; i < groups.length; i++) {
@@ -14,3 +14,5 @@ export default function isGroupInGroups(groups, group) {
 
   return isExists
 }
+
+module.exports = isGroupInGroups
