@@ -21,3 +21,5 @@ console.log(multiplyFractionsByNumber("2")) // 0.5
 // console.log(multiplyFractionsByNumber(2)) // 0.5
 // console.log(multiplyFractionsByNumber(false)) // error
 // console.log(multiplyFractionsByNumber(true)) // error
+
+module.exports = multiplyFractionsByNumber

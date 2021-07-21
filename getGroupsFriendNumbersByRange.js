@@ -33,3 +33,5 @@ console.log(getGroupsFriendNumbersByRange(200, 300)) // [[200, 284]]
 // console.log(getGroupsFriendNumbersByRange(500, 2000)) // [[ 1184, 1210 ]]
 // console.log(getGroupsFriendNumbersByRange(500, {})) // error
 // console.log(getGroupsFriendNumbersByRange(500, "2300kl")) // [[ 1184, 1210 ]]
+
+module.exports = getGroupsFriendNumbersByRange
